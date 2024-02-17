@@ -10,6 +10,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\IndexagendakegiatanController;
 use App\Http\Controllers\IndexberitaandControllerController;
+use App\Http\Controllers\IndexPegumumanController;
 use App\Http\Controllers\IndexPengumumanController;
 use App\Http\Controllers\LayananController;
 use App\Http\Controllers\PendidikanDSWController;
@@ -51,7 +52,7 @@ Route::get('/Layanan', [LayananController::class, 'indexlayanan']);
 // indexing BLOG
 Route::get('/agenda/details/{id}', [IndexagendakegiatanController::class, 'showDetails']);
 Route::get('/berita/detail/{id}', [IndexberitaandControllerController::class, 'showDetails']);
-Route::get('/pengumuman/detail/{id}', [IndexPengumumanController::class, 'showDetails'])->name('pengumuman.detail');
+Route::get('/pengumuman/detail/{id}', [IndexPengumumanController::class, 'showDetails']);
 // indexing BLOG end
 
 Route::get('/Layanan/Pln-DSW', [PlnDSWController::class, 'plndsw']);

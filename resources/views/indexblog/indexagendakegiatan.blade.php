@@ -43,7 +43,7 @@
                         src="{{ asset('storage/' . $agenda->image) }}" alt="" />
                 </a>
                 <p class="mt-3"> <b>{{ $agenda->title }} || {{ $agenda->date }}</b> <br /></p>
-                <p class="container">{{ $agenda->description }}</p>
+                <p class="container">{!! $agenda->description !!}</p>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @include('sleacing.iconweb')
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>News Agenda Kegiata</title>
+    <title>News Berita & Artikel</title>
 
     <head>
         <meta charset="utf-8">
@@ -25,12 +25,12 @@
                 <hr style="width: 100%; border: 2px solid blue;">
                 <hr style="width: 100%; border: 2px solid black;">
             </div>
-            <h1 class="fw-bold">News Agenda Kegiata</h1>
+            <h1 class="fw-bold">News Berita & Artikel</h1>
         </center>
         <div class="path-link-beranda mt-5">
             <a href="/" class="text-decoration-none">Beranda ></a>
             <a href="/Berita&Kegiatan" class="text-decoration-none">Berita & Artikel ></a>
-            <a class="text-decoration-none text-dark">News Agenda Kegiata</a>
+            <a class="text-decoration-none text-dark">News Berita & Artikel</a>
             
         </div>
 

@@ -38,7 +38,7 @@ class AgendakegiatanDashboardController extends Controller
         // Create agenda with the image path and date
         Agenda::create([
             'title' => $request->input('title'),
-            'description' => $request->input('description'),
+            'description' => nl2br($request->input('description')),
             'image' => $imagePath,
             'date' => $request->input('date'),
         ]);
@@ -70,10 +70,13 @@ class AgendakegiatanDashboardController extends Controller
 
         $agenda = Agenda::findOrFail($id);
 
+        $imagePath = $request->file('image')->store('agendakegiatan', 'public');
+
         // Update title, description, and date
         $agenda->update([
             'title' => $request->input('title'),
-            'description' => $request->input('description'),
+            'description' => nl2br($request->input('description')),
+            'image' => $imagePath,
             'date' => $request->input('date'),
         ]);
 

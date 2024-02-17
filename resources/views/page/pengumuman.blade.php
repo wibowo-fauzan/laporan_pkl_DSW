@@ -32,7 +32,7 @@
                 @foreach ($pengumumans as $pengumuman)
                     <div class="col-xl-4">
                         <div class="shadow p-3 mb-5 bg-body rounded p-2">
-                            <a href="{{ route('pengumuman.detail', ['id' => $pengumuman->id]) }}" class="image-link">
+                            <a href="/pengumuman/detail/{{ $pengumuman->id }}" class="image-link">
                                 <img src="{{ asset('storage/' . $pengumuman->image) }}" alt="Logo" style="object-fit: cover; width: 100%; aspect-ratio: 1/1" class="hover-image agenda-image" data-id="{{ $pengumuman->id }}">
                             </a>                            
                             <p class="mt-4" style="width: 100%;"> <b>{{ $pengumuman->title }} || {{ $pengumuman->date }}</b> <br /></p>
