@@ -52,7 +52,7 @@ Route::get('/Layanan', [LayananController::class, 'indexlayanan']);
 // indexing BLOG
 Route::get('/agenda/details/{id}', [IndexagendakegiatanController::class, 'showDetails']);
 Route::get('/berita/detail/{id}', [IndexberitaandControllerController::class, 'showDetails']);
-Route::get('/pengumuman/detail/{id}', [IndexPengumumanController::class, 'showDetails']);
+Route::get('/pengumuman/detail/{id}', [IndexPengumumanController::class, 'showDetails'])->name('pengumuman.page');
 // indexing BLOG end
 
 Route::get('/Layanan/Pln-DSW', [PlnDSWController::class, 'plndsw']);

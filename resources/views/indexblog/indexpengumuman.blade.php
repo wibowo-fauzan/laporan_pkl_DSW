@@ -15,6 +15,7 @@
         <title>Bootstrap 5 Navbar Bottom Template · Bootstrap</title>
         @include('linkbootstrap.css')
     </head>
+
 <body>
     @include('sleacing.nav')
 
@@ -31,20 +32,19 @@
             <a href="/" class="text-decoration-none">Beranda ></a>
             <a href="/Pengumuman" class="text-decoration-none">Pengumuman></a>
             <a class="text-decoration-none text-dark">News Pengumuman</a>
-            
         </div>
 
         <div class="blog mt-5">
             @foreach ($pengumumans as $pengumuman)
-            <div class="image-container shadow p-3 mb-5 bg-body rounded p-2" style="width: 100%; position: relative; overflow: hidden;">
-                    <a href="">
-                        <img class="rounded" style="object-fit: cover; aspect-ratio: 1/1; width: 50%; justify-content: center; align-content: center; margin: auto; display: flex;" src="{{ asset('storage/' . $pengumuman->image) }}" alt="" />
-                    </a>
+                <div class="image-container shadow p-3 mb-5 bg-body rounded p-2"
+                    style="width: 100%; position: relative; overflow: hidden;">
+                    <img class="rounded" style="object-fit: cover; aspect-ratio: 1/1; width: 50%; justify-content: center; align-content: center; margin: auto; display: flex;" src="{{ asset('storage/' . $pengumuman->image) }}" alt="" />
                     <p class="mt-3"> <b>{{ $pengumuman->title }} || {{ $pengumuman->date }}</b> <br /></p>
                     <p class="container">{{ $pengumuman->description }}</p>
                 </div>
             @endforeach
         </div>
+        
     </div>
 
     @include('sleacing.footer')

@@ -26,23 +26,31 @@
             <a href="/" class="text-decoration-none">Beranda ></a>
             <a class="text-decoration-none text-dark">Pengumuman</a>
         </div>
-
-        <div class="blog mt-5">
-            <div class="row mt-5">
-                @foreach ($pengumumans as $pengumuman)
-                    <div class="col-xl-4">
-                        <div class="shadow p-3 mb-5 bg-body rounded p-2">
-                            <a href="/pengumuman/detail/{{ $pengumuman->id }}" class="image-link">
-                                <img src="{{ asset('storage/' . $pengumuman->image) }}" alt="Logo" style="object-fit: cover; width: 100%; aspect-ratio: 1/1" class="hover-image agenda-image" data-id="{{ $pengumuman->id }}">
-                            </a>                            
-                            <p class="mt-4" style="width: 100%;"> <b>{{ $pengumuman->title }} || {{ $pengumuman->date }}</b> <br /></p>
-                            <p>{{ Str::limit($pengumuman->description, 40) }}</p>
-                        </div>
-                    </div>
-                @endforeach
+        <div class="row mt-5">
+            @foreach ($pengumumans as $Pengumuman)
+            <div class="col-xl-4">
+                <div class="shadow p-3 mb-5 bg-body rounded p-2">
+                    <img src="{{ asset('storage/' . $Pengumuman->image) }}" alt="Logo" style="object-fit: cover; width: 100%; aspect-ratio: 1/1" class="hover-image pengumuman-image" data-id="{{ $Pengumuman->id }}">
+                    <p class="mt-4" style="width: 100%;"> <b>{{ $Pengumuman->title }} || {{ $Pengumuman->date }}</b> <br /></p>
+                    <p>{{ Str::limit($Pengumuman->description, 40) }}</p>
+                </div>
             </div>
+            @endforeach
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.pengumuman-image').forEach(function (image) {
+                image.addEventListener('click', function () {
+                    var pengumumanId = this.getAttribute('data-id');
+                    console.log('Pengumuman ID:', pengumumanId); // Tambahkan ini untuk memeriksa nilai
+                    window.location.href = '/pengumuman/detail/' + pengumumanId;
+                });
+            });
+        });
+    </script>
+    
 
     @include('sleacing.footer')
 

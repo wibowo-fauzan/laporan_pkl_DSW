@@ -15,6 +15,7 @@
         <title>Bootstrap 5 Navbar Bottom Template · Bootstrap</title>
         @include('linkbootstrap.css')
     </head>
+
 <body>
     @include('sleacing.nav')
 
@@ -31,19 +32,22 @@
             <a href="/" class="text-decoration-none">Beranda ></a>
             <a href="/Berita&Kegiatan" class="text-decoration-none">Berita & Artikel ></a>
             <a class="text-decoration-none text-dark">News Berita & Artikel</a>
-            
+
         </div>
 
         <div class="blog mt-5">
             @foreach ($beritaArtikels as $beritaAtikel)
-    <div class="image-container shadow p-3 mb-5 bg-body rounded p-2" style="width: 100%; position: relative; overflow: hidden;">
-        <a href="">
-            <img class="rounded" style="object-fit: cover; aspect-ratio: 1/1; width: 50%; justify-content: center; align-content: center; margin: auto; display: flex;" src="{{ asset('storage/' . $beritaAtikel->image) }}" alt="" />
-        </a>
-        <p class="mt-3"> <b>{{ $beritaAtikel->title }} || {{ $beritaAtikel->date }}</b> <br /></p>
-        <p class="container">{{ $beritaAtikel->description }}</p>
-    </div>
-@endforeach
+            <div class="image-container shadow p-3 mb-5 bg-body rounded p-2"
+                style="width: 100%; position: relative; overflow: hidden;">
+                <a href="">
+                    <img class="rounded"
+                        style="object-fit: cover; aspect-ratio: 1/1; width: 50%; justify-content: center; align-content: center; margin: auto; display: flex;"
+                        src="{{ asset('storage/' . $beritaAtikel->image) }}" alt="" />
+                </a>
+                <p class="mt-3"> <b>{{ $beritaAtikel->title }} || {{ $beritaAtikel->date }}</b> <br /></p>
+                <p class="container">{{ $beritaAtikel->description }}</p>
+            </div>
+            @endforeach
 
         </div>
     </div>

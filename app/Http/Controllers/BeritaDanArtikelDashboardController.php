@@ -10,7 +10,7 @@ class BeritaDanArtikelDashboardController extends Controller
 {
     public function index()
     {
-        $beritaArtikels = BeritaAtikel::latest()->paginate(10);
+        $beritaArtikels = BeritaAtikel::simplePaginate(4);
         return view('dashboard.page.databerita&artikel', compact('beritaArtikels'));
     }
 

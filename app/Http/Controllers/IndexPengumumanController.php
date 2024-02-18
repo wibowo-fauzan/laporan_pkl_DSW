@@ -7,10 +7,14 @@ use Illuminate\Http\Request;
 
 class IndexPengumumanController extends Controller
 {
-    public function showDetails()
+    public function showDetails($id)
     {
-        $latestpengumumans = Pengumuman::latest()->first();
-        $pengumumans = Pengumuman::latest()->paginate(6);
-        return view('indexblog.indexpengumuman', compact('latestpengumumans', 'pengumumans'));
+        // Ambil data Pengumuman berdasarkan ID
+        $pengumuman = Pengumuman::findOrFail($id);
+
+        // Ambil dua pengumuman terbaru selain yang diklik
+        $pengumumans = Pengumuman::where('id', $id)->latest()->take(2)->get();
+
+        return view('indexblog.indexpengumuman', compact('pengumuman', 'pengumumans'));
     }
 }

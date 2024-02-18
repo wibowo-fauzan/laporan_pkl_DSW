@@ -10,7 +10,7 @@ class PengumumanDashboardController extends Controller
 {
     public function datapengumuman()
     {
-        $pengumumans = Pengumuman::paginate(10); // Adjust the number as per your requirement
+        $pengumumans = Pengumuman::simplePaginate(4);
         return view('dashboard.page.datapengumuman', compact('pengumumans'));
     }
 

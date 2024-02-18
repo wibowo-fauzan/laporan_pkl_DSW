@@ -7,10 +7,14 @@ use Illuminate\Http\Request;
 
 class IndexberitaandControllerController extends Controller
 {
-    public function showDetails()
+    public function showDetails($id)
     {
-        $latestBerita = BeritaAtikel::latest()->first();
-        $beritaArtikels = BeritaAtikel::latest()->paginate(6);
-        return view('indexblog.indexberitaandartikel', compact('beritaArtikels', 'latestBerita'));
+        // Ambil data Pengumuman berdasarkan ID
+        $beritaArtikel = BeritaAtikel::findOrFail($id);
+
+        // Ambil dua pengumuman terbaru selain yang diklik
+        $beritaArtikels = BeritaAtikel::where('id', $id)->latest()->take(2)->get();
+
+        return view('indexblog.indexberitaandartikel', compact('beritaArtikel', 'beritaArtikels'));
     }
 }
