@@ -36,10 +36,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/', [TngglBlnThnController::class, 'showEventCard']);
 Route::get('/TentangDSW', [TentangDSWController::class, 'index']);
@@ -69,6 +65,7 @@ Route::get('/error', [CustomErrorPage::class, 'pathredirect']);
 
 Route::middleware(['admin'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'dashboard']);
+
     // agenda kegiatan dinamis
     Route::get('/admin/dashboard/dataagenda', [AgendakegiatanDashboardController::class, 'dataagenda'])->name('agendas.index');
     Route::get('/admin/dashboard/dataagenda-create', [AgendakegiatanDashboardController::class, 'create'])->name('agendas.create');

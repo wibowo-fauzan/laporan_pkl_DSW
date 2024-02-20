@@ -35,12 +35,12 @@
         </div>
 
         <div class="blog mt-5">
-            <div class="image-container shadow p-3 mb-5 bg-body rounded p-2"
-                style="width: 100%; position: relative; overflow: hidden;">
-                <!-- Make the larger image clickable with the route to the detailed view -->
+            <div class="image-container shadow p-3 mb-5 bg-body rounded p-2" style="width: 100%; position: relative; overflow: hidden;">
                 <img class="rounded" style="object-fit: cover; aspect-ratio: 1/1; width: 50%; justify-content: center; align-content: center; margin: auto; display: flex;" src="{{ asset('storage/' . $agenda->image) }}" alt="" />
-                <p class="mt-3"> <b>{{ $agenda->title }} || {{ $agenda->date }}</b> <br /></p>
-                <p class="container">{!! $agenda->description !!}</p>
+                <div class="container">
+                    <p class="mt-3 container"> <b>{{ $agenda->title }} || {{ $agenda->date }}</b> <br /></p>
+                    <p class="container">{!! $agenda->description !!}</p>
+                </div>
             </div>
         </div>
     </div>

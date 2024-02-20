@@ -34,9 +34,9 @@
                         </div>
                         <div class="mb-3">
                             <label for="description" class="form-label">Deskripsi Agenda Kegiatan</label>
-                            <textarea name="description" id="description" class="form-control" id="description" aria-describedby="description" required rows="5"></textarea>
+                            <textarea name="description" id="description" class="form-control" id="description" aria-describedby="description" required rows="5">{!! old('description') !!}</textarea>
                             <div id="description" class="form-text">Isi Dengan Deskripsi Agenda Kegiatan Depok</div>
-                        </div>
+                        </div>                        
                         <div class="mb-3">
                             <label for="image" class="form-label">Gambar Agenda Kegiatan</label>
                             <input type="file" name="image" id="image" class="form-control" id="image" accept="image/*" aria-describedby="image" required>

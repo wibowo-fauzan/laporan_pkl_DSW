@@ -33,7 +33,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="description" class="form-label">Deskripsi Berita & Artikel</label>
-                            <textarea name="description" class="form-control" id="description" aria-describedby="description" required rows="5"></textarea>
+                            <textarea name="description" id="description" class="form-control" id="description" aria-describedby="description" required rows="5">{!! old('description') !!}</textarea>
                             <div class="form-text">Isi Dengan Deskripsi Berita & Artikel Depok</div>
                         </div>
                         <div class="mb-3">
