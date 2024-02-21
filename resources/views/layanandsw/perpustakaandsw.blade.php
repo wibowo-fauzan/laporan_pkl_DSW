@@ -38,30 +38,31 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="/asset/SMAN1Depok.jpg" class="d-block rounded"
+                <img src="/asset/perpusumum.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="/asset/SMAN6depok.jpg" class="d-block rounded"
+                <img src="/asset/perpusui.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="/asset/SMA Santa Ursula Depok.webp" class="d-block rounded"
+                <img src="/asset/perpustakaangundar.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="/asset/SD Al-Azhar Depok.jpg" class="d-block rounded"
+                <img src="/asset/perpusdaerah.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="/asset/smk_n_2_depok_sleman_yogyakarta_cover.jpeg" class="d-block rounded"
+                <img src="/asset/perpus2.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
             </div>
+
             <div class="carousel-item">
                 <img src="https://asset.kompas.com/crops/_NRrco8g6CTluqwWLyguXb4SRhg=/98x0:944x564/750x500/data/photo/2021/12/02/61a8d64decf69.jpg"
                     class="d-block rounded"
@@ -72,121 +73,62 @@
     </div>
     <div class="container mb-5">
         <div class="mt-5">
-            <h1 class="fw-bold fs-3">Layanan Sekolah di Wilayah Depok</h1>
+            <h1 class="fw-bold fs-3">Perpustakaan Umum Kota Depok</h1>
             <ul class="mt-4">
                 <li>
-                    <p>Kota Depok bermula dari sebuah perkampungan kecil di wilayah Bogor yang didirikan oleh Cornelis
-                        Chastelein pada tahun 1696. Awalnya, kawasan ini merupakan tanah perkebunan yang dimiliki oleh
-                        VOC (Vereenigde Oostindische Compagnie) atau Perusahaan Hindia Timur Belanda.</p>
+                    <p>Perpustakaan Umum Kota Depok adalah salah satu lembaga yang berfungsi menyediakan layanan bacaan dan informasi kepada masyarakat. Fungsi perpustakaan umum melibatkan peminjaman dan pengembalian buku, sumber daya audiovisual, serta berbagai aktivitas pendukung literasi. Beberapa fitur dan layanan yang mungkin ditemukan di perpustakaan umum ini meliputi:</p>
                 </li>
                 <div class="row mt-5 mb-5">
                     <div class="col-xl-4">
                         <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 250px;">
-                            <h1 class="fs-5">1. Perkembangan dan Pertumbuhan:</h1>
+                            <h1 class="fs-5">Perpustakaan Umum Kota Depok
+
+:</h1>
                             <ul>
                                 <li>
-                                    <p>Seiring berjalannya waktu, daerah ini berkembang menjadi sebuah pemukiman dengan
-                                        pertanian sebagai aktivitas utama penduduknya. Pertumbuhan penduduk dan
-                                        perkembangan ekonomi mengakibatkan perluasan wilayah Depok.</p>
+                                    <p>Lokasi: Jl. Margonda Raya No.54, Depok </p><li><p>Penjelasan: Merupakan perpustakaan utama di kota ini, menyediakan beragam koleksi buku dan fasilitas untuk masyarakat umum.</p></li>
+
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4">
                         <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 250px;">
-                            <h1 class="fs-5">2. Peranan Pendidikan:</h1>
+                            <h1 class="fs-5">Perpustakaan Universitas Indonesia (UI) - Depok
+
+</h1>
                             <ul>
                                 <li>
-                                    <p>Depok memiliki sejarah pendidikan yang cukup kaya. Pada awalnya, beberapa yayasan
-                                        keagamaan mendirikan sekolah-sekolah di wilayah ini. Peran sekolah-sekolah
-                                        tersebut dalam pendidikan masyarakat setempat membantu mengangkat taraf
-                                        pendidikan di Depok.</p>
+                                    <p>Lokasi: Kampus UI, Jl. Margonda Raya, Depok</p>
+                                    <li><p>Fokus pada koleksi literatur dan referensi yang mendukung mahasiswa dan akademisi Universitas Indonesia.</p></li>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4">
                         <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 250px;">
-                            <h1 class="fs-5">3. Status Kota:</h1>
+                            <h1 class="fs-5">Perpustakaan Perguruan Tinggi Swasta di Depok
+
+</h1>
                             <ul>
                                 <li>
-                                    <p>Pada tanggal 18 Mei 1999, Depok resmi menjadi kota otonom yang terpisah dari
-                                        Kabupaten Bogor. Status kota otonom memungkinkan Depok untuk mengelola urusan
-                                        pemerintahan dan pembangunan secara mandiri.</p>
+                                    <p>Lokasi: Bervariasi tergantung perguruan tinggi</p>
+                                    <li><p>Setiap perguruan tinggi swasta di Depok biasanya memiliki perpustakaan sendiri dengan koleksi yang mendukung kurikulum dan penelitian.</p></li>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4">
                         <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 250px;">
-                            <h1 class="fs-5">4. Pusat Pendidikan:</h1>
+                            <h1 class="fs-5">Perpustakaan Daerah Kabupaten Depok</h1>
                             <ul>
                                 <li>
-                                    <p>Depok telah menjadi pusat pendidikan yang penting dengan adanya berbagai
-                                        universitas dan institusi pendidikan tinggi terkemuka, seperti Universitas
-                                        Indonesia dan Universitas Gunadarma.</p>
+                                    <p>Lokasi: Bervariasi tergantung kecamatan</p>
+                                    <li><p>Setiap kecamatan di Kabupaten Depok umumnya memiliki perpustakaan daerah yang menyediakan layanan bagi penduduk setempat</p></li>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <h1>Keunggulan Layanan Sekolah Depok:</h1>
-                    <li id="sejarahDepok">
-                        <p>Sejarah Kota Depok memberikan konteks penting bagi lingkungan sekolah di kota ini,
-                            menggambarkan perkembangan dan peranannya dalam membentuk karakter masyarakat serta sistem
-                            pendidikan yang ada saat ini. <a id="linkSelengkapnya" onclick="tampilkanSelengkapnya()"
-                                style="cursor: pointer;" class="text-primary">Selengkapnya...</a></p>
-                    </li>
-                    <div id="sejarahDepokDetail" class="mt-5" style="display: none;">
-                        <h1> Sekolah Terbaik Di Depok:</h1>
-                        <div class="row mt-4">
-                            <div class="col-xl-4">
-                                <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 90%;">
-                                    <img src="/asset/SMAN1Depok.jpg" class="card-img-top rounded" alt="Tidak Muncul">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SMA Negeri 1 Depok</h5>
-                                        <p class="card-text">Salah satu sekolah menengah atas negeri terbaik di Depok. Terkenal karena prestasi akademis dan ekstrakurikuler yang baik.</p>
-                                      </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 90%;">
-                                    <img src="/asset/SMAN6depok.jpg" class="card-img-top rounded" alt="Tidak Muncul">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SMA Negeri 6 Depok</h5>
-                                        <p class="card-text">Juga termasuk sekolah negeri yang memiliki reputasi yang baik. Menawarkan berbagai program akademis dan kegiatan ekstrakurikuler.</p>
-                                      </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 90%;">
-                                    <img src="/asset/SMA Santa Ursula Depok.webp" class="card-img-top rounded" alt="Tidak Muncul">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SMA Santa Ursula Depok</h5>
-                                        <p class="card-text"> Sebagai sekolah swasta, SMA Santa Ursula Depok memiliki tradisi pendidikan yang kuat dan berkomitmen pada pembinaan karakter siswa.</p>
-                                      </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 90%;">
-                                    <img src="/asset/SD Al-Azhar Depok.jpg" class="card-img-top rounded" alt="Tidak Muncul">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SD Al-Azhar Depok</h5>
-                                        <p class="card-text">Salah satu sekolah dasar swasta terkemuka yang menekankan pendidikan Islam dan nilai-nilai moral.</p>
-                                      </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="shadow p-3 mb-5 bg-body rounded p-2" style="height: 90%;">
-                                    <img src="/asset/smk_n_2_depok_sleman_yogyakarta_cover.jpeg" class="card-img-top rounded" alt="Tidak Muncul">
-                                    <div class="card-body">
-                                        <h5 class="card-title">SMK Negeri 2 Depok</h5>
-                                        <p class="card-text">Fokus pada pendidikan kejuruan dengan program-program unggulan dalam bidang tertentu.</p>
-                                      </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {{-- <p class="fw-bold">Contact Me :</p>
                 <button class="btn btn-danger" onclick="PLNWEBSITE()"><svg xmlns="http://www.w3.org/2000/svg" width="30"
                         height="30" viewBox="0 0 14 14">
