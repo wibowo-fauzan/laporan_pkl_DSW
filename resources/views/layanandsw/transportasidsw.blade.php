@@ -27,22 +27,20 @@
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            {{-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
                 aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                aria-label="Slide 4"></button>
+                aria-label="Slide 4"></button> --}}
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="/asset/perpusumum.jpg" class="d-block rounded"
-                    style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
-                    alt="...">
+                <img src="/asset/transportasiumum.jpg" class="d-block rounded" style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            {{-- <div class="carousel-item" data-bs-interval="3000">
                 <img src="/asset/perpusui.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
@@ -56,19 +54,17 @@
                 <img src="/asset/perpusdaerah.jpg" class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="/asset/transportasiumum.jpg" class="d-block rounded"
-                    style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
-                    alt="...">
-            </div>
+            </div> --}}
+            {{-- <div class="carousel-item" data-bs-interval="3000">
+                <img src="/asset/transportasiumum.jpg" class="d-block rounded" style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;" alt="...">
+            </div> --}}
 
-            <div class="carousel-item">
+            {{-- <div class="carousel-item">
                 <img src="https://asset.kompas.com/crops/_NRrco8g6CTluqwWLyguXb4SRhg=/98x0:944x564/750x500/data/photo/2021/12/02/61a8d64decf69.jpg"
                     class="d-block rounded"
                     style=" object-fit: contain; background-repeat: no-repeat; width: 100%; height: 400px; border-radius: 20px;"
                     alt="...">
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="container mb-5">
