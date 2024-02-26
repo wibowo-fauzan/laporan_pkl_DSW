@@ -33,7 +33,7 @@ class BeritaDanArtikelDashboardController extends Controller
 
             BeritaAtikel::create([
                 'title' => $request->input('title'),
-                'description' => $request->input('description'),
+                'description' => nl2br($request->input('description')),
                 'image' => $imagePath,
                 'date' => $request->input('date'),
             ]);
@@ -70,7 +70,7 @@ class BeritaDanArtikelDashboardController extends Controller
 
         $beritaAtikel->update([
             'title' => $request->input('title'),
-            'description' => $request->input('description'),
+            'description' => nl2br($request->input('description')),
             'date' => $request->input('date'),
         ]);
 
