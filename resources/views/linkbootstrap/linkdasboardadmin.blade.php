@@ -11,6 +11,7 @@
 
         :root {
             --blue: #287bff;
+            --custom: #FF8F2D;
             --white: #fff;
             --grey: #f5f5f5;
             --black1: #222;
@@ -31,8 +32,8 @@
             position: fixed;
             width: 300px;
             height: 100%;
-            background: var(--blue);
-            border-left: 10px solid var(--blue);
+            background: var(--custom);
+            border-left: 10px solid var(--custom);
             transition: 0.5s;
             overflow: hidden;
         }
