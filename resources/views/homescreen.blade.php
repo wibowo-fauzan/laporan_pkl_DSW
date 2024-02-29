@@ -184,55 +184,7 @@
             </div>
         </center>
     </div>
-    <center>
-        <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="asset/img/img-1.png" class="d-block" width="90%" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="asset/img/img-2.png" class="d-block" width="90%" alt="...">
-                </div>
-            </div>
-        </div>
-    </center>
-    <div class="container mt-5 mb-5">
-        <div class="d-flex">
-            <hr class="wdth-pndk-pls">
-            <hr class="wdth-pndk-wrna">
-        </div>
-        <h3>List of News</h3>
-        <div class="row mt-5">
-
-            {{-- agenda kegiatan --}}
-            <div class="col-xl-4  rounded">
-                <div class="shadow p-3 mb-5 bg-body rounded p-2">
-                    <img class="rounded " style="object-fit: cover; width: 100%; aspect-ratio: 1/1" src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376__340.jpg" width="100%" alt="" />
-                    <p class="mt-3"> <b>Jhon Due | 20-08-2022</b> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit Soluta accusantium praesentium ducimus
-                    </p>
-                </div>
-            </div>
-            {{-- agenda kegiatan --}}
-
-            {{-- pengumuman --}}
-            <div class="col-xl-4 rounded">
-                <div class="shadow p-3 mb-5 bg-body rounded p-2">
-                    <img class="rounded " style="object-fit: cover; width: 100%; aspect-ratio: 1/1" src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376__340.jpg" width="100%" alt="" />
-                    <p class="mt-3"> <b>Jhon Due | 20-08-2022</b> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit Soluta accusantium praesentium ducimus </p>
-                </div>
-            </div>
-            {{-- pengumuman --}}
-
-            {{-- berita dan artikel --}}
-            <div class="col-xl-4 rounded">
-                <div class="shadow p-3 mb-5 bg-body rounded p-2">
-                    <img class="rounded " style="object-fit: cover; width: 100%; aspect-ratio: 1/1" src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376__340.jpg" width="100%" alt="" />
-                    <p class="mt-3"> <b>Jhon Due | 20-08-2022</b> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit Soluta accusantium praesentium ducimus </p>
-                </div>
-            </div>
-            {{-- berita dan artikel --}}
-        </div>
-    </div>
+    
     <div class="mb-2">
         <h1 class="text-center">Titik Kota Depok</h1>
         <p class="text-center">Maps Depok</p>

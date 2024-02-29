@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgendaHomeController;
 use App\Http\Controllers\AgendaKegiatanController;
 use App\Http\Controllers\AgendakegiatanDashboardController;
 use App\Http\Controllers\AuthController;
