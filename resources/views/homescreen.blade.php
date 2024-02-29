@@ -103,7 +103,7 @@
         </div>
         <p class="fw-bold fs-4">Informasi Cuaca Dan Waktu</p>
         <center>
-            <div class="row mt-4">
+            <div class="row mt-5" style="display: flex; justify-content: center;align-content: center;">
                 <div class="col-md-3">
                     <div class="shadow p-3 mb-5 bg-body rounded p-2" style="width: 18rem;">
                         <img src="https://dsw.depok.go.id/assets-web/img/icon/cuaca/calendar.png"
@@ -119,24 +119,6 @@
                             class="mt-3 card-img-top card-img-cuaca" alt="...">
                         <div class="card-body">
                             <p class="fw-bold text-center" id="realtime-clock">Loading...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="shadow p-3 mb-5 bg-body rounded p-2" style="width: 18rem;">
-                        <img src="https://dsw.depok.go.id/assets-web/img/icon/cuaca/cloudy.png"
-                            class="mt-3 card-img-top card-img-cuaca" alt="...">
-                        <div class="card-body">
-                            <p class="fw-bold text-center">testing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="shadow p-3 mb-5 bg-body rounded p-2" style="width: 18rem;">
-                        <img src="https://dsw.depok.go.id/assets-web/img/icon/cuaca/cloudy-day.png"
-                            class="mt-3 card-img-top card-img-cuaca" alt="...">
-                        <div class="card-body">
-                            <p class="fw-bold text-center">testing</p>
                         </div>
                     </div>
                 </div>
